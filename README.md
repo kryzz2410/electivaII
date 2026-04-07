@@ -16,6 +16,15 @@ npm run check
 npm run build
 ```
 
+## CI/CD
+
+El proyecto despliega automaticamente a GitHub Pages con GitHub Actions.
+
+- Workflow: `.github/workflows/pages.yml`
+- Ejecuta validacion en `pull_request` y despliegue en `push` a `main`
+- Base path: se configura con `BASE_PATH` para publicar correctamente en repositorios tipo `usuario/repositorio`
+- Salida estatica: `build/`
+
 ## Estructura
 
 - `src/lib/core`: cliente HTTP, configuracion y adaptadores.
