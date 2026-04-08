@@ -4,7 +4,7 @@
 </script>
 
 <label class="search">
-	<span>Buscar personaje</span>
+	<span>Busca tu personaje favorito</span>
 	<input
 		type="search"
 		placeholder="Rick, Morty, Summer..."
